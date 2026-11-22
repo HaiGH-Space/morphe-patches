@@ -10,15 +10,15 @@ plugins {
     alias(libs.plugins.animalsniffer)
 }
 
-group = "app.template"
+group = "com.nth.patches"
 
 patches {
     // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
+        name = "HaiGH-Space"
         description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        source = "git@github.com:HaiGH-Space/morphe-patches.git"
+        author = "HaiGH-Space"
         contact = "na"
         website = "na"
         license = "GPLv3"
