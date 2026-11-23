@@ -1,31 +1,51 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "patches": [
     {
-      "name": "Example Patch",
-      "description": "Example patch to start with.",
+      "name": "Hide Paywall",
+      "description": "Instantly finishes and hides NovaPaywallActivity.",
       "default": true,
       "category": null,
       "compatiblePackages": [
         {
-          "packageName": "com.example.app",
-          "name": "XYZ app",
+          "packageName": "com.teslacoilsw.launcher",
+          "name": "Nova Launcher",
           "description": null,
           "apkFileType": "APK",
-          "appIconColor": "#FF0045",
+          "appIconColor": "#2A3543",
           "signatures": null,
           "formFactor": "MOBILE",
           "targets": [
             {
-              "version": "2.0.0",
+              "version": "9.0.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
-            },
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Nova Prime",
+      "description": "Unlocks Nova Prime features and premium options.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.teslacoilsw.launcher",
+          "name": "Nova Launcher",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#2A3543",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
             {
-              "version": "1.0.2",
+              "version": "9.0.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
