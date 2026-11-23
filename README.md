@@ -19,11 +19,11 @@ Click the button below, or manually add this repo url to Morphe Manager: https:/
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.1](https://github.com/HaiGH-Space/morphe-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`dev`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**1 patches** across **1 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.0.0-dev.2](https://github.com/HaiGH-Space/morphe-patches/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`dev`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**2 patches** across **1 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|
-| 1 | [**XYZ app**](PATCHES.md#xyz-app-comexampleapp) | 1 | `2.0.0`, `1.0.2` | [`com.example.app`](https://play.google.com/store/apps/details?id=com.example.app) |
+| 1 | [**Nova Launcher**](PATCHES.md#nova-launcher-comteslacoilswlauncher) | 2 | `9.0.1` | [`com.teslacoilsw.launcher`](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher) |
 <!-- PATCHES_END -->
 
 ### 🛠️ Building locally

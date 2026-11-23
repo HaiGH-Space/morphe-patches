@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-22T12:49:00",
-  "description": "## 1.0.0-dev.1 (2026-11-22)\n\n### ✨ New Features\n\n* initialize project configuration and signing key ([634e94a](https://github.com/HaiGH-Space/morphe-patches/commit/634e94a57ef22f8f94162e321ae5e06a598503af))",
-  "download_url": "https://github.com/HaiGH-Space/morphe-patches/releases/download/v1.0.0-dev.1/patches-1.0.0-dev.1.mpp",
+  "created_at": "2026-11-23T14:55:09",
+  "description": "## [1.0.0-dev.2](https://github.com/HaiGH-Space/morphe-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-11-23)\n\n### ✨ New Features\n\n* add build configuration and guide for patches project ([5a3aecd](https://github.com/HaiGH-Space/morphe-patches/commit/5a3aecd472a65510f55bcb35ff0b5b910d773ee5))\n* add Nova compatibility patches and remove example files ([f6bff89](https://github.com/HaiGH-Space/morphe-patches/commit/f6bff89defb307172987bb46a89181775e874cbe))\n* enhance Nova patches with improved fingerprint matching and instructions ([fe28a02](https://github.com/HaiGH-Space/morphe-patches/commit/fe28a0253413842bc4a9d0915ade82caa9630608))",
+  "download_url": "https://github.com/HaiGH-Space/morphe-patches/releases/download/v1.0.0-dev.2/patches-1.0.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "public_key": "HUi0BpOmMf/Xc5rHy2EMLRHNWvqAw4p8rPl0aQJkRjw="
 }
