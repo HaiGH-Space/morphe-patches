@@ -1,3 +1,9 @@
+## [1.0.0-dev.3](https://github.com/HaiGH-Space/morphe-patches/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-11-23)
+
+### ✨ New Features
+
+* remove outdated compatibility examples from Constants.kt ([43fea39](https://github.com/HaiGH-Space/morphe-patches/commit/43fea399ffee5e7919cc3b304dc6a24f0750036b))
+
 ## [1.0.0-dev.2](https://github.com/HaiGH-Space/morphe-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-11-23)
 
 ### ✨ New Features
