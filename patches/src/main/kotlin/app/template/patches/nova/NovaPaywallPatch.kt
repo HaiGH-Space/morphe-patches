@@ -13,6 +13,7 @@ val novaPaywallPatch = patch(
     compatibleWith(COMPATIBILITY_NOVA)
 
     execute {
+        // Immediately finish the activity and return upon entry to prevent the paywall from showing
         NovaPaywallFingerprint.method.addInstructions(
             0,
             """
