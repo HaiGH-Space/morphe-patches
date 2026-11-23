@@ -19,8 +19,8 @@ patches {
         description = "Patches for apps I like"
         source = "git@github.com:HaiGH-Space/morphe-patches.git"
         author = "HaiGH-Space"
-        contact = "na"
-        website = "na"
+        contact = "https://github.com/HaiGH-Space/morphe-patches/issues"
+        website = "https://github.com/HaiGH-Space/morphe-patches"
         license = "GPLv3"
     }
 }
