@@ -50,11 +50,11 @@ Instructions and repository conventions for AI coding agents working in `HaiGH-S
 - `fix: <summary>` — Bug or fingerprint fix (triggers a pre-release on `dev`).
 - `chore: <summary>` — Internal maintenance/tooling changes (does **not** trigger a pre-release or changelog entry).
 
-3. **Stable Releases:** Promote `dev` to `main` using a standard **merge commit only**. **Never squash-merge** `dev` into `main`, as `semantic-release` depends on individual commit history.
+3. **Stable Releases:** Promote `dev` to `main` by **creating a Pull Request (PR) from `dev` to `main`** and merging it using a standard **merge commit only**. **Never** merge locally and push directly to `main`, and **never squash-merge** `dev` into `main`, as `semantic-release` depends on individual commit history.
 
 ## Strict Guardrails (Do Not Violate)
 
-- **Do NOT write new release scripts:** Always use the existing `.github/workflows/release.yml` and `.releaserc`. Only modify those existing files if custom release behavior is explicitly requested.
+- **Do NOT push directly to `main` or merge locally:** Always create a Pull Request from `dev` to `main` and merge it on GitHub using a standard merge commit.
 - **Do NOT manually edit or commit generated release artifacts:**
 - `patches-list.json`
 - `patches-bundle.json`
