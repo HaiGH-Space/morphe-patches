@@ -11,7 +11,10 @@ object NovaConstants {
         apkFileType = ApkFileType.APK,
         appIconColor = 0x2A3543,
         targets = listOf(
-            AppTarget(90100 (9.0.1))
+            AppTarget(
+                version = "9.0.1",
+                versionCode = 90100
+            )
         )
     )
 }
