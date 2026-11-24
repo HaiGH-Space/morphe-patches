@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.0.1-dev.1",
   "patches": [
     {
       "name": "Hide Paywall",
@@ -19,7 +19,12 @@
           "targets": [
             {
               "version": "9.0.1",
-              "versionCodes": null,
+              "versionCodes": {
+                "ARM64_V8A": 90100,
+                "ARMEABI_V7A": 90100,
+                "X86_64": 90100,
+                "X86": 90100
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -46,7 +51,12 @@
           "targets": [
             {
               "version": "9.0.1",
-              "versionCodes": null,
+              "versionCodes": {
+                "ARM64_V8A": 90100,
+                "ARMEABI_V7A": 90100,
+                "X86_64": 90100,
+                "X86": 90100
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
