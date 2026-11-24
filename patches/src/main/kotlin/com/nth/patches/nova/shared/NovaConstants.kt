@@ -12,7 +12,7 @@ object NovaConstants {
         appIconColor = 0x2A3543,
         targets = listOf(
             AppTarget(
-                version = "9.0.1",
+                version = "90100 (9.0.1)",
                 versionCode = 90100
             )
         )
