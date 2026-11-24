@@ -3,5 +3,6 @@ extension {
 }
 
 android {
-    namespace = "app.template.extension"
+    namespace = "com.nth.patches.extension"
 }
+

@@ -1,4 +1,4 @@
-package app.template.patches.nova
+package com.nth.patches.nova.fingerprints
 
 import app.morphe.patcher.Fingerprint
 
