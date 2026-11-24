@@ -1,3 +1,9 @@
+## [1.0.1-dev.1](https://github.com/HaiGH-Space/morphe-patches/compare/v1.0.0...v1.0.1-dev.1) (2026-11-24)
+
+### 🐛 Bug Fixes
+
+* declare target version and versionCode correctly in NovaConstants ([9d9a98c](https://github.com/HaiGH-Space/morphe-patches/commit/9d9a98c2bf0c5723c683ffdf54004cd4e2739a03))
+
 ## 1.0.0 (2026-11-23)
 
 ### ✨ New Features

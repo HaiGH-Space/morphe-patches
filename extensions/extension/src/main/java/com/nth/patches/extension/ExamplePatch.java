@@ -1,4 +1,4 @@
-package app.template.extension.extension;
+package com.nth.patches.extension;
 
 @SuppressWarnings("unused")
 public class ExamplePatch {

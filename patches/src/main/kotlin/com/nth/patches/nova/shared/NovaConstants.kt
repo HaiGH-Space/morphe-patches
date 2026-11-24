@@ -1,11 +1,10 @@
-package app.template.patches.shared
+package com.nth.patches.nova.shared
 
 import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
-import app.morphe.patcher.patch.SupportedAbi
 
-object Constants {
+object NovaConstants {
     val COMPATIBILITY_NOVA = Compatibility(
         name = "Nova Launcher",
         packageName = "com.teslacoilsw.launcher",
@@ -13,7 +12,8 @@ object Constants {
         appIconColor = 0x2A3543,
         targets = listOf(
             AppTarget(
-                version = "9.0.1"
+                version = "9.0.1",
+                versionCode = 90100
             )
         )
     )

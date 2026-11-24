@@ -1,17 +1,9 @@
-package app.template.patches.nova
+package com.nth.patches.nova.patches
 
-import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.patch
-import app.template.patches.shared.Constants.COMPATIBILITY_NOVA
-
-/**
- * Fingerprint matching Nova Launcher's core preference & Prime initialization method.
- * Uses unique string anchors to locate the method across obfuscated builds.
- */
-object NovaPrimeUnlockFingerprint : Fingerprint(
-    strings = listOf("widget_reset_ids", "ro.razer.internal.api")
-)
+import com.nth.patches.nova.fingerprints.NovaPrimeUnlockFingerprint
+import com.nth.patches.nova.shared.NovaConstants.COMPATIBILITY_NOVA
 
 @Suppress("unused")
 val novaPrimeUnlockPatch = patch(
