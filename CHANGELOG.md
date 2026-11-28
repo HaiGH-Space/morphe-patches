@@ -1,3 +1,16 @@
+## [1.1.0-dev.2](https://github.com/HaiGH-Space/morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-11-28)
+
+### ✨ New Features
+
+* add Auto SMS extension with license patching and secure storage interception ([dcebc51](https://github.com/HaiGH-Space/morphe-patches/commit/dcebc515ea035771a6a84a8ba7c80a007013a417))
+* **autosms:** unlock permanent license, set Vip profile, and disable logout ([32c0f73](https://github.com/HaiGH-Space/morphe-patches/commit/32c0f736b89b7a41d29b037aa2d9cf85905a1342))
+
+## [1.1.0-dev.1](https://github.com/HaiGH-Space/morphe-patches/compare/v1.0.1...v1.1.0-dev.1) (2026-11-24)
+
+### ✨ New Features
+
+* add WPS Office compatibility patches and update versioning in NovaConstants ([de829b4](https://github.com/HaiGH-Space/morphe-patches/commit/de829b4a83c5a84860a1cc75a4372257dab95138))
+
 ## [1.0.1](https://github.com/HaiGH-Space/morphe-patches/compare/v1.0.0...v1.0.1) (2026-11-24)
 
 ### 🐛 Bug Fixes

@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-24T04:38:20",
-  "description": "## [1.0.1](https://github.com/HaiGH-Space/morphe-patches/compare/v1.0.0...v1.0.1) (2026-11-24)\n\n### 🐛 Bug Fixes\n\n* declare target version and versionCode correctly in NovaConstants ([9d9a98c](https://github.com/HaiGH-Space/morphe-patches/commit/9d9a98c2bf0c5723c683ffdf54004cd4e2739a03))",
-  "download_url": "https://github.com/HaiGH-Space/morphe-patches/releases/download/v1.0.1/patches-1.0.1.mpp",
+  "created_at": "2026-11-28T14:24:55",
+  "description": "## [1.1.0-dev.2](https://github.com/HaiGH-Space/morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-11-28)\n\n### ✨ New Features\n\n* add Auto SMS extension with license patching and secure storage interception ([dcebc51](https://github.com/HaiGH-Space/morphe-patches/commit/dcebc515ea035771a6a84a8ba7c80a007013a417))\n* **autosms:** unlock permanent license, set Vip profile, and disable logout ([32c0f73](https://github.com/HaiGH-Space/morphe-patches/commit/32c0f736b89b7a41d29b037aa2d9cf85905a1342))",
+  "download_url": "https://github.com/HaiGH-Space/morphe-patches/releases/download/v1.1.0-dev.2/patches-1.1.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.0.1",
+  "version": "1.1.0-dev.2",
   "public_key": "HUi0BpOmMf/Xc5rHy2EMLRHNWvqAw4p8rPl0aQJkRjw="
 }

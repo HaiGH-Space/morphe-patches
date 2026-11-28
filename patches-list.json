@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.1",
+  "version": "1.1.0-dev.2",
   "patches": [
     {
       "name": "Hide Paywall",
@@ -18,12 +18,108 @@
           "formFactor": "MOBILE",
           "targets": [
             {
-              "version": "9.0.1",
+              "version": "90100 (9.0.1)",
               "versionCodes": {
                 "ARM64_V8A": 90100,
                 "ARMEABI_V7A": 90100,
                 "X86_64": 90100,
                 "X86": 90100
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "MicroG Auth & Play Services Bypass",
+      "description": "Bypasses Google Play Services availability checks to allow Google Sign-In via MicroG.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "cn.wps.moffice_eng",
+          "name": "WPS Office",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#D32F2F",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "26.11.2",
+              "versionCodes": {
+                "ARM64_V8A": 1653,
+                "ARMEABI_V7A": 1653,
+                "X86_64": 1653,
+                "X86": 1653
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "MicroG Support (Manifest)",
+      "description": "Prepares AndroidManifest.xml for MicroG and Google Sign-In support.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "cn.wps.moffice_eng",
+          "name": "WPS Office",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#D32F2F",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "26.11.2",
+              "versionCodes": {
+                "ARM64_V8A": 1653,
+                "ARMEABI_V7A": 1653,
+                "X86_64": 1653,
+                "X86": 1653
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock License & Bypass Auth",
+      "description": "Pre-populates SharedPreferences, intercepts FlutterSecureStorage calls via AutoSmsHook extension, and patches native libapp.so HTTP 401/403 checks.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.example.auto_sms",
+          "name": "Auto SMS",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1E88E5",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "0.1.65",
+              "versionCodes": {
+                "ARM64_V8A": 188,
+                "ARMEABI_V7A": 188,
+                "X86_64": 188,
+                "X86": 188
               },
               "isExperimental": false,
               "minSdk": null,
@@ -50,12 +146,44 @@
           "formFactor": "MOBILE",
           "targets": [
             {
-              "version": "9.0.1",
+              "version": "90100 (9.0.1)",
               "versionCodes": {
                 "ARM64_V8A": 90100,
                 "ARMEABI_V7A": 90100,
                 "X86_64": 90100,
                 "X86": 90100
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Premium & VIP",
+      "description": "Bypasses WPS Office premium and VIP checks to unlock all premium features.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "cn.wps.moffice_eng",
+          "name": "WPS Office",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#D32F2F",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "26.11.2",
+              "versionCodes": {
+                "ARM64_V8A": 1653,
+                "ARMEABI_V7A": 1653,
+                "X86_64": 1653,
+                "X86": 1653
               },
               "isExperimental": false,
               "minSdk": null,
